@@ -1,0 +1,198 @@
+header {
+  width: 100%;
+}
+header nav {
+  width: 95%;
+  margin: auto;
+}
+header nav ul {
+  margin: auto;
+  gap: 20px;
+}
+header nav ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header nav ul .nav-item a {
+  color: black;
+}
+header nav ul .nav-item a:hover {
+  color: red;
+}
+header nav .iconsbox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+  color: black;
+}
+header nav .iconsbox i:hover {
+  color: red;
+}
+
+#productsServer #productBox {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#productsServer #productBox img {
+  width: 230px;
+}
+#productsServer #productBox .boxs {
+  width: 300px;
+  text-align: center;
+}
+#productsServer #productBox button {
+  padding: 5px 10px;
+  background-color: red;
+  border-radius: 30px;
+  border: 1px solid red;
+  color: #fff;
+}
+#productsServer #productBox button:hover {
+  background-color: #fff;
+  color: red;
+  transition: 1s;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  width: 95%;
+  margin: auto;
+}
+header nav ul {
+  margin: auto;
+  gap: 20px;
+}
+header nav ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header nav ul .nav-item a {
+  color: black;
+}
+header nav ul .nav-item a:hover {
+  color: red;
+}
+header nav .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+}
+header nav .icons a {
+  color: black;
+}
+header nav .icons i:hover {
+  color: red;
+}
+
+#wachtSection {
+  background-color: #f0f0f2;
+}
+#wachtSection .container .row .col-xl-4 img {
+  max-width: 90%;
+}
+#wachtSection .container .row .col-xl-8 .perfectStyle {
+  max-width: 100%;
+}
+#wachtSection .container .row .col-xl-8 .perfectStyle p {
+  color: #0b1c39;
+}
+#wachtSection .container .row .col-xl-8 .perfectStyle .select {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+#wachtSection .container .row .col-xl-8 .perfectStyle .textstayl {
+  font-size: 70px;
+  font-weight: bold;
+}
+#wachtSection .container .row .col-xl-8 .perfectStyle button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4a4a4b;
+  border: none;
+}
+#wachtSection .container .row .col-xl-8 .perfectStyle button:hover {
+  background-color: red;
+  transition: 1s;
+}
+
+#wacthPhoto .container .arrivals {
+  max-width: 100%;
+}
+#wacthPhoto .container .arrivals p {
+  font-size: 50px;
+  font-weight: bold;
+}
+#wacthPhoto .container .row .col-xl-4 .watchModel img {
+  max-width: 100%;
+}
+#wacthPhoto .container .row .col-xl-4 .watchModel .etip {
+  font-size: 22px;
+  font-weight: bold;
+}
+#wacthPhoto .container .row .col-xl-4 .watchModel .colorRed {
+  color: red;
+}
+#wacthPhoto .container .row .col-xl-4 .watchModel p {
+  text-align: center;
+}
+
+#productsServer #products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#productsServer #products img {
+  width: 230px;
+}
+#productsServer #products .box {
+  width: 300px;
+  text-align: center;
+}
+#productsServer button {
+  padding: 5px 10px;
+  background-color: rgb(0, 218, 0);
+  border-radius: 30px;
+  border: 1px solid rgb(0, 218, 0);
+  color: #fff;
+}
+#productsServer button:hover {
+  background-color: #fff;
+  color: rgb(0, 218, 0);
+  transition: 1s;
+}
+#productsServer .btn {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+footer {
+  background-color: #0b1c39;
+}
+footer .container {
+  text-align: center;
+}
+footer .container p {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #wachtSection .container .row .col-xl-8 .perfectStyle .select {
+    font-size: 50px;
+  }
+  #wachtSection .container .row .col-xl-8 .perfectStyle .textstayl {
+    font-size: 50px;
+  }
+}
